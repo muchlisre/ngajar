@@ -1,7 +1,6 @@
 <form method="post" action="">
     <input type="password" name="pin" maxlength="5" placeholder="PIN" required>
 </form>
-
 <?php
 error_reporting(0);
 
