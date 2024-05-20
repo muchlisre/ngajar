@@ -24,6 +24,9 @@ function caesar_decrypt($encrypted_text, $shift) {
     return caesar_encrypt($encrypted_text, 26 - $shift); // Dekripsi adalah enkripsi dengan pergeseran kebalikan
 }
 
+
+/*
+
 // Contoh penggunaan
 $pesan_awal = "PESAN RAHASIA";
 $kunci_pergeseran = 3;
@@ -35,7 +38,4 @@ echo "Pesan terenkripsi: " . $pesan_terenkripsi . "<br>";
 // Decoding (Dekripsi)
 $pesan_terdekripsi = caesar_decrypt($pesan_terenkripsi, $kunci_pergeseran);
 echo "Pesan terdekripsi: " . $pesan_terdekripsi;
-
-?>
-
-
+*/
